@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Portfólio Marina</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        margin: 0%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    margin: 20px 0px 0px 0px;
+}
+#topMenu {
+    display: flex;
+    background-color: black;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 10;
+}
+#topMenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    z-index: 10;
+}
+li:hover{
+    background-color: red;
+}
+#topMenu li:first-child {
+    margin-right: auto;
+}
+.section1  {
+display: flex;
+height: 60vh;
+background-color: green;
+}
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    height: 15vh;
+   background-color: white; 
+}
+.imagemprojeto {
+    width: 15vw;
+    height: 15vw;
+    padding-left: 20px;
+    }
+    .section3 {
+    display: flex;
+    height: 20vh;
+   background-color: white; 
+}
+.imagemprojeto2 {
+    width: 15vw;
+    height: 20vw;
+    padding-left: 20px;
+    }
+    .section4 {
+    display: flex;
+    height: 15vh;
+   background-color: white; 
+}
+.imagemprojeto3 {
+    width: 15vw;
+    height: 20vw;
+    padding-left: 20px;
+    }
+.botaoVermelho {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2,h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+.Contato {
+    text-align: center;
+}
+input {
+    width: 10%;
+    padding: 4px;
+}
+</style>
+    <body>
+        <nav>
+            <ul id="topMenu">
+            <li>Portfólio Marina Larrossa</li>
+            <li><a href="#Sobre mim">Sobre mim</a></li>
+            <li><a href="#Projetos">Projetos</a></li> 
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+        </nav>
+        <div class="section1">
+        <div class="centralize">
+            <img src="imagem minha foto.jpg" width="125" height="175"> 
+            <h1>Marina Larrossa</h1>
+            <a href="#Projetos"><button class="botaoVermelho">Projetos</button></a></div>
+        </div>
+        <div id="Projetos" class="section2 centralize">
+         </div>
+            <table class="centralize">
+<tr>
+    <td style="width: 40%"><img class="imagemprojeto" src="Cardápio.png" ></td>
+    <td style="width: 60%"></ul>
+        <ul style="color:green;">
+         Projeto 1
+        <hr>
+        <li><a href="#https://github.com/MarinaRegina/CARDAPIO.git"> Cardápio</a></li>
+      </ul>
+ </td>
+</tr>
+ </table>
+    </div>
+    <div id="Projetos" class="section3 centralize">
+    </div>
+       <table class="centralize">
+<tr>
+
+<td style="width: 60%"></ul>
+   <ul style="color:green;">
+    Projeto 2
+   <hr>
+   <li><a href="#https://github.com/MarinaRegina/curriculo.git">Currículo</li>
+   <td style="width: 40%"><img class="imagemprojeto2" src="Currículo.png" ></td>
+ </ul>
+</td>
+</tr>
+</table>
+</div>
+<div id="Projetos" class="section4 centralize">
+</div>
+<table class="centralize">
+<td style="width: 40%"><img class="imagemprojeto3" src="Meu primeiro site.png" ></td>
+<td style="width: 60%"></ul>
+   <ul style="color:green;">
+    Projeto 3
+   <hr>
+   <li><a href="#https://github.com/MarinaRegina/meu-primeiro-site-parte-2.git"> Meu primeiro site</a></li>
+ </ul>
+</td>
+</table>
+</div>
+<div>
+ <h2>Sobre mim</h2><div id="Sobre mim"></h2>
+
+    <p>Meu nome Marina Regina Larrossa da Silva e tenho 34 anos,estou a procura de coisas novas e no momento
+        me surgiu esta proposta do Elas na Tech,que estou muito entusiasmada com o projeto,vou seguir em busca
+        de coisas novas para meu desenvolvimento.
+    </p>
+    <h3>Contato</h3><div id="Contato"></h3>
+        <div class="Contato"></div>
+        <div class="conatiner">
+       <forma action="https://formsubmit.co/mlarrossa@hotmail.com _" method="POST">
+            <label for="Nome"> Nome:</label>
+            <input type="Nome" id="Nome" required>
+            <label for="E-mail"> E-mail:</label>
+            <input type="E-mail" id="email" required>
+            <label for="mensage"> Mensagem:</label>
+            <input type="text" id="mensage" required>
+            <textarea name="Mensagem" id="Mensagem" required></textarea>
+            <button type="submit"> Enviar</button>
+        </div>
+ 
+<footer>
+    <h5 class="centralize">Criado por Marina Regina Larrossa,2023.</h5>
+</footer>
+</body>
+
+</html>
